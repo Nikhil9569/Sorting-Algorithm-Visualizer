@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Algorithm Visualizer</h1>
+        <div class="controls">
+            <label for="arraySize">Array Size:</label>
+            <input type="number" id="arraySize" min="10" max="1000" value="50">
+            <button id="generateArray">Generate New Array</button>
+            <button id="startSort">Start Sorting</button>
+            <p id="suggestion"></p>
+            <label for="speed">Speed:</label>
+            <input type="range" id="speed" min="1" max="100" value="50">
+        </div>
+        <div id="arrayContainer" class="array-container"></div>
+    </div>
+    <script src="log.js"></script>
+</body>
+</html>
